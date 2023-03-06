@@ -1,4 +1,4 @@
-package petclinic.model;
+package uz.brogrammer.petclinic.model;
 
 public class Person {
 

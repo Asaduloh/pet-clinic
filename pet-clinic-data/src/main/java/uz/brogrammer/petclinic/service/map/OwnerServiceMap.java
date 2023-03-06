@@ -1,4 +1,4 @@
-package petclinic.service.map;
+package uz.brogrammer.petclinic.service.map;
 
 import uz.brogrammer.petclinic.model.Owner;
 import uz.brogrammer.petclinic.service.OwnerService;
@@ -6,6 +6,7 @@ import uz.brogrammer.petclinic.service.OwnerService;
 import java.util.Set;
 
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
+
 
     @Override
     public Set<Owner> findAll() {

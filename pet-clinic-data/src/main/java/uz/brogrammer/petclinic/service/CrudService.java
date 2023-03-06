@@ -1,4 +1,4 @@
-package petclinic.service;
+package uz.brogrammer.petclinic.service;
 
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package petclinic.service.map;
+package uz.brogrammer.petclinic.service.map;
 
 import java.util.HashMap;
 import java.util.HashSet;
