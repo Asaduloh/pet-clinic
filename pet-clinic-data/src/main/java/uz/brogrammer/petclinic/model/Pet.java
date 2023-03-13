@@ -2,19 +2,11 @@ package uz.brogrammer.petclinic.model;
 
 import java.time.LocalDate;
 
-public class Pet {
-    private Long id;
+public class Pet extends BaseEntity {
     private PetType petType;
     private Owner owner;
-    private LocalDate birthDay;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+    private LocalDate birthDate;
+    private String name;
 
     public PetType getPetType() {
         return petType;
@@ -32,11 +24,19 @@ public class Pet {
         this.owner = owner;
     }
 
-    public LocalDate getBirthDay() {
-        return birthDay;
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 
-    public void setBirthDay(LocalDate birthDay) {
-        this.birthDay = birthDay;
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
